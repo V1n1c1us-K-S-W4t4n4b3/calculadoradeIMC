@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-  android:background="@color/cardview_dark_background"
+
 
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -12,7 +12,7 @@
         android:id="@+id/button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#170961"
+        android:backgroundTint="#240D9E"
         android:backgroundTintMode="add"
         android:text="Calculadora de IMC"
         android:textColor="@color/white"
