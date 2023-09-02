@@ -48,7 +48,7 @@ class calculadoraIMC : AppCompatActivity() {
 
             } else if (result >= 40) {
 
-                total.setText(" Obesidade tip 2, IMC = " + result);
+                total.setText(" Obesidade tipo 2, IMC = " + result);
 
             }
 
