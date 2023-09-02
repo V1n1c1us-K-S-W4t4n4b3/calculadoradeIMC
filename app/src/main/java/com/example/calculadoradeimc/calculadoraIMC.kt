@@ -30,19 +30,39 @@ class calculadoraIMC : AppCompatActivity() {
 
             val result = peso / (altura * altura)
 
-            total.setText(result.toString())
+            if (result < 19) {
+
+                total.setText(" Abaixo do Peso, IMC = " + result);
+
+            } else if (result <= 19 || result < 25) {
+
+                total.setText(" Peso normal, IMC = " + result);
+
+            } else if (result <= 25 || result < 30) {
+
+                total.setText(" Sobrepeso, IMC = " + result);
+
+            } else if (result <= 30 || result < 40) {
+
+                total.setText(" Obesidade tipo 1, IMC = " + result);
+
+            } else if (result >= 40) {
+
+                total.setText(" Obesidade tip 2, IMC = " + result);
+
+            }
+
 
         }
         voltar.setOnClickListener {
             val VoltarTelaPrincipal = Intent(this, MainActivity::class.java)
-                 startActivity(VoltarTelaPrincipal)
+            startActivity(VoltarTelaPrincipal)
         }
 
-
-        
-        }
 
     }
+
+}
 
 
 //}
