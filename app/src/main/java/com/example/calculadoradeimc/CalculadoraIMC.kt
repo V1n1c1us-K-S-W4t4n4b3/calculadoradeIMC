@@ -16,6 +16,8 @@ class CalculadoraIMC : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_calculadora_imc)
+        // acredito que aqui seja eu esteja criando um tipo de arquivo mas estou em duvida
+        // ?
 
         val editPeso = findViewById<EditText>(R.id.editPeso)
         val editAltura = findViewById<EditText>(R.id.editAltura)
@@ -31,13 +33,13 @@ class CalculadoraIMC : AppCompatActivity() {
             val formatPeso: NumberFormat = NumberFormat.getInstance(Locale.FRANCE)
             val numberPeso: Number = formatPeso.parse(editPeso.text.toString())
             val dPeso = numberPeso.toDouble()
-            //nesta parte estou mudando o formato do numero dizendo q o NumberFormat recebe a instancia de localidade da frança mudando o idioma do editText referente a peso
+            //nesta parte estou mudando o formato do numero dizendo q o NumberFormat recebe a instancia de localidade da frança mudando o idioma do editText referente a peso para frances
             // e tbm fazendo ele se converter de "string" para "toDouble" para quando aparecer o calculo o codigo entenda q sao numeros
 
             val formatAltura: NumberFormat = NumberFormat.getInstance(Locale.FRANCE)
             val numberAltura: Number = formatAltura.parse(editAltura.text.toString())
             val dAltura = numberAltura.toDouble()
-            //nesta parte estou mudando o formato do numero dizendo q o NumberFormat recebe a instancia de localidade da frança mudando o idioma do editText referente a Altura
+            //nesta parte estou mudando o formato do numero dizendo q o NumberFormat recebe a instancia de localidade da frança mudando o idioma do editText referente a Altura para frances
             // e tbm fazendo ele se converter de "string" para "toDouble" para quando aparecer o calculo o codigo entenda q sao numeros
 
             //val peso = editPeso.text.toString().toDouble();
