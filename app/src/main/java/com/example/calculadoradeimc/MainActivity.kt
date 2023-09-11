@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.button.setOnClickListener {
-            val NavegarSegundaTela = Intent(this, calculadoraIMC::class.java)
+            val NavegarSegundaTela = Intent(this, CalculadoraIMC::class.java)
             startActivity(NavegarSegundaTela)
 
         }

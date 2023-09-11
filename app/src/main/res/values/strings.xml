@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">calculadora de IMC</string>
+    <string name="app_name">Calculadora de IMC</string>
+    <string name="imc_magro">Abaixo do peso, IMC = %1$s</string>
+    <string name="imc_no_peso">Peso normal, IMC = %1$s</string>
+    <string name="imc_a_cima_do_peso">Sobrepeso, IMC = %1$s</string>
+    <string name="imc_gordo1">Obesidade tipo 1, IMC = %1$s</string>
+    <string name="imc_gordo2">Obesidade tipo 2, IMC = %1$s</string>
+    <string name="imc_falso">informação falsa!</string>
+    <string name="digite_o_seu_peso">Digite o seu Peso</string>
+    <string name="digite_a_sua_altura">Digite a sua altura</string>
+    <string name="resultado">Resultado:</string>
+    <string name="calcular">Calcular</string>
+    <string name="back">Back</string>
+    <string name="kz">KZ</string>
+    <string name="calculadora_de_imc">Calculadora de IMC</string>
+    <string name="kz1">KZ</string>
 </resources>
